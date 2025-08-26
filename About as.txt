@@ -1,0 +1,268 @@
+<html>
+    <head>
+        <title>ABOUT AS</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <style>
+            .About{
+                padding: 70px;
+            }
+            h1{
+                display: inline;
+                color: rgb(38, 38, 140);
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 40px;
+                text-indent: 60px;
+            }
+            p{
+                color: rgb(61, 61, 216);
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 25px;
+                text-indent: 10px;
+            }
+            h3{
+                color: black;
+                font-size: 20px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                float: right;
+                text-align: justify;
+            }
+            .slowFade {
+                display: flex;
+                align-items: flex-start;
+                background: #fff;
+                height: 50vh;
+                overflow: hidden;
+                position: relative;
+                }
+
+                .slowFade .slide img {
+                position: absolute;
+                min-width: 100%;
+                min-height: 100%;
+                height: 50px;
+                background: #000;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                opacity: 0;
+                transform: scale(1.5) rotate(15deg);
+                -webkit-animation: slowFade 32s infinite;
+                animation: slowFade 32s infinite;
+                }
+                .slowFade .slide:nth-child(7) img {
+                -webkit-animation-delay: 28s;
+                animation-delay: 28s;
+                }
+                .slowFade .slide:nth-child(6) img {
+                -webkit-animation-delay: 24s;
+                animation-delay: 24s;
+                }
+                .slowFade .slide:nth-child(5) img {
+                -webkit-animation-delay: 20s;
+                animation-delay: 20s;
+                }
+                .slowFade .slide:nth-child(4) img {
+                -webkit-animation-delay: 16s;
+                animation-delay: 16s;
+                }
+
+                .slowFade .slide:nth-child(3) img {
+                -webkit-animation-delay: 12s;
+                animation-delay: 12s;
+                }
+
+                .slowFade .slide:nth-child(2) img {
+                -webkit-animation-delay: 8s;
+                animation-delay: 8s;
+                }
+
+                .slowFade .slide:nth-child(1) img {
+                -webkit-animation-delay: 4s;
+                animation-delay: 4s;
+                }
+
+                @keyframes slowFade {
+                25% {
+                    opacity: 1;
+                    transform: scale(1) rotate(0);
+                }
+                40% {
+                    opacity: 0;
+                }
+                }
+
+                @-webkit-keyframes slowFade {
+                25% {
+                    opacity: 1;
+                    transform: scale(1) rotate(0);
+                }
+                40% {
+                    opacity: 0;
+                }
+                }
+                i{
+                  float:right;
+                  color: orange;
+                  border-style: solid;
+                  border-radius: 10px;
+                  background-color:papayawhip;
+                  font-size: 50px;
+                }
+                 /* Add your custom styles here */
+                .slider-container {
+                   width: 80%;
+                   margin: auto;
+                }
+                .slider-item img {
+                  width: 100%;
+                  height: auto;
+                }
+                .footer{
+                background-color: rgb(214, 239, 255);
+                padding: 30px;
+                }
+                .contact{
+                background-color: white;
+                width: 60%;
+                }
+                .footer p{
+                float:left;
+                }
+                textarea{
+                float: left;
+                width: 100%;
+                height: 20%;
+                }
+                .form{
+                padding: 5px;
+                height: 80%;
+                }
+                .contact h2{
+                color: black ;
+                text-align: left;
+                }
+                .contact h4{
+                color: black ;
+                text-align: left;
+                font-size: 22px;
+                
+                }
+                .form p{
+                    font-size: 15px;
+                    color: #000;
+                }
+                .form input[type="text"]{
+                    width: 49%;
+                    height: 10%;
+                }
+                .form input[type="name"]{
+                    width: 49%;
+                    height: 10%;
+                    float: right;
+                }
+                .form input[type="email"]{
+                    width: 49%;
+                    height: 10%;
+                    display: inline;
+                }
+                .form input[type="tel"]{
+                    width: 49%;
+                    height: 10%;
+                    float: right;
+                }
+                .content p{
+                    font-size: 14px;
+                    color: #000;
+                    text-align: justify;
+                }
+                label{
+                    color: #000;
+                }
+                .send{
+                text-align:  center;
+                }
+                button{
+                    background-color: gold;
+                    width: 15%;
+                    padding: 0px;
+                    font-size: 25px;
+                    border: double;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="About">
+            <h1> About ScienceSoft &nbsp;:-</h1>
+            <h3>Founded in 1989, ScienceSoft is a US-based provider of IT consulting and <br>software development services. Throughout our history, we have helped<br> over 1,200 clients from 75+ countries successfully deliver their IT<br> initiatives.</h3>
+            <p>Your Partner for Digital Success</p>
+            </div>
+              <div class="slider-container">
+                <div class="slider-item">
+                    <img src="nick.webp" alt="Image 1">
+                </div>
+                <div class="slider-item">
+                    <img src="team-4.webp" alt="Image 2">
+                </div>
+                <div class="slider-item">
+                  <img src="office-4.webp" alt="Image 2">
+              </div>
+              <div class="slider-item">
+                <img src="group-people-working-team.jpg" alt="Image 2">
+            </div>
+            <div class="slider-item">
+              <img src="IMAGE 1.jpg" alt="Image 2">
+          </div>
+          <div class="slider-item">
+            <img src="IMAGE 3.png" alt="Image 2">
+        </div>
+                <!-- Add more slider items as needed -->
+            
+            </div>            
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slider-container').slick({
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2000 // Set your desired autoplay speed in milliseconds
+        });
+    });
+</script>
+<div class="footer">
+    <div class="contact">
+    <h2>Need a Consultation?</h2>
+    <h4>Drop us a line! We are here to answer your questions 24/7.</h4>
+<div class="form">
+    <textarea name="message" placeholder="How can we help you?"></textarea><br><br>
+    <p><input type="file">to upload your file(s)
+    </p>
+    <br>
+    <br>
+    <input type="text" name="name" placeholder="Full name" align="left">
+    <input type="name" name="company" placeholder="Company" align="right">
+    <br><br>
+    <input type="email" name="email" placeholder="Work email">
+    <input type="tel" name="phone" placeholder="Phone"><br>
+    <input type="checkbox"><label><b>I agree to have ScienceSoft contact me via email, phone, messengers.</b></label><br>
+    <input type="checkbox"><label><b>I agree to have ScienceSoft provide my request information to ScienceSoft's affiliated development center.</b></label>
+    <div class="content">
+    <p>In compliance with GDPR, your personal information will be collected and stored for ten years on servers located in the United States. After this term is expired, your information will be erased. We will share your information with our development center, which will handle your request. At our headquarters and our development center we apply the same level of care in respect of your information as prescribed with GDPR rules. For more information, please refer to our <a href="https://www.scnsoft.com/about/privacy-policy">Privacy Policy</a>.</p>
+</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="send">
+        <button><a href="">Send</a></button>
+    </div>
+</div>
+</div>
+</div>
+    </body>
+</html>
